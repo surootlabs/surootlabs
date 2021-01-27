@@ -1,0 +1,76 @@
+
+/* 
+---------------------------------------------------------------------------------------------------------------------------------
+	"CSS FILES" MAP
+---------------------------------------------------------------------------------------------------------------------------------
+A)  DEFAULT CSS FILE
+	1.  style.css
+
+B) SAMPLES SKINS OPTIONS 
+	1. skin1.css
+	2. skin2.css
+	3. skin3.css
+		.
+		.
+		.
+		.
+	11. skin11.css
+
+C)  LOGO AND NAVIGATION POSITION STYLE OPTIONS
+	1. movable_style.css
+	2. fixed_style.css
+
+D) BODY BACKGROUND ATTACHMENT STYLE OPTIONS
+	1. movable_style.css
+	2. fixed_style.css
+		
+E)	SIDEBAR POSITION OPTIONS
+	1. right_sidebar_style.css
+	2. left_sidebar_style.css
+		
+F)	CUSTOM SEPARATED CSS FILES FOR CUSTOM SEPARATED OTIMIZATIONS [ this is for a quick change any element separately ]
+	1. custom_separated_css_file_for_custom_specific_optimizations.css
+	
+*/
+
+
+/* ### HOW TO USE ### 
+
+To change between the styles specified elements, just go to the "CSS MAP" and see the style you would like to choose and apply and go down to the "IMPORTS PART" and past the css file name in the suitable place. It's comented, so you can simply specify where to paste your changes!
+
+*/
+
+
+
+
+
+/* ------------------------ IMPORTS PART ------------------------ */
+
+
+
+/* LAYOUT AND ELEMENTS STRUCTURES [ no change with import ] */
+@import url("style.css");
+
+/* PRETTYPHOTO LIGHTBOX PLUGIN [ no change with import ] */
+@import url("prettyPhoto.css");
+
+/* SAMPLES_SKINS_OPTIONS */
+@import url("skins/skin1.css"); 
+
+/* LOGO AND NAVIGATION POSITION STYLE OPTIONS */
+@import url("logo_and_navigation_position_styles_options/movable_style.css"); 
+
+/* BODY BACKGROUND ATTACHMENT STYLE OPTIONS */
+@import url("body_background_attachment_styles_options/fixed_style.css"); 
+
+/* SIDEBAR POSITION OPTIONS */
+@import url("sidebar_position_options/right_sidebar_style.css"); 
+
+/* CUSTOM SEPARATED CSS FILES FOR CUSTOM SEPARATED OPTIMIZATIONS */
+@import url("custom_separated_css_file_for_custom_specific_optimizations.css"); 
+
+
+
+
+
+

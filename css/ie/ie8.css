@@ -1,0 +1,8 @@
+
+/* ### FIXING CSS ISSUES FOR IE8 ### */
+
+.nav ul li ul {
+	border: 1px solid #e5e5e5;
+	border-top: 5px solid #000;
+}
+
