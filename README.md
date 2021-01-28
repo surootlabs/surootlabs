@@ -1,4 +1,4 @@
-Welcome to my githup static webpage!
+Welcome to my github static webpage!
 
 link to view webpage: https://surootlabs.github.io/surootlabs/
 
